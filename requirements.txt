@@ -1,0 +1,3 @@
+cupy-cuda11x
+scikit-learn
+numpy
