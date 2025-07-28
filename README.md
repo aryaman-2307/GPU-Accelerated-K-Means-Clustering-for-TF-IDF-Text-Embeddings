@@ -8,8 +8,8 @@ This project implements **K-Means clustering for text documents** using **TF-IDF
 
 - ✅ Vectorizes input documents using TF-IDF
 - ⚡ Runs K-Means clustering on the GPU using CuPy (CUDA)
-- 🔁 Supports configurable number of clusters and iterations
-- 🧮 Outputs cluster labels for each document via command line
+- 🔁 Supports a configurable number of clusters and iterations
+- 🧮 Outputs cluster labels for each document via the command line
 - 🛠 Easily extendable to use GloVe, BERT, or MiniBatch K-Means
 
 ---
@@ -47,7 +47,7 @@ The input should be a plain `.txt` file with one document per line.
 ```
 Apple launches new AI-powered iPhone.
 Delicious recipes for homemade Italian pasta.
-Wall Street sees gains in tech sector this quarter.
+Wall Street sees gains in the tech sector this quarter.
 ```
 
 ---
@@ -121,18 +121,6 @@ For larger datasets or more accurate clustering:
 - [ ] Add CSV export for results
 - [ ] Add t-SNE visualizations
 - [ ] Integrate deep language models (e.g., BERT or RoBERTa)
-- [ ] Create interactive dashboard for cluster exploration
+- [ ] Create an interactive dashboard for cluster exploration
 
 ---
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♀️ Author
-
-**Ananya @ GPU Programming Capstone 2025**
-
-Open an issue or pull request if you have questions or ideas!
